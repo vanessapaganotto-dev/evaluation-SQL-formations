@@ -1,8 +1,5 @@
-# evaluation-SQL-formations
+# Base de données SQL complète pour gérer un centre de formation.  
 
-## Français
-
-Base de données SQL complète pour gérer un centre de formation.  
 Le système gère les élèves, professeurs, formations, matières, cours, devoirs, inscriptions et rendez-vous.
 
 ### Technologies utilisées
@@ -49,55 +46,12 @@ Le système gère les élèves, professeurs, formations, matières, cours, devoi
 
 ---
 
-## English
+## Auteur
 
-Complete SQL database to manage a training center.  
-The system handles students, teachers, training programs, subjects, courses, assignments, enrollments, and appointments.
-
-### Technologies used
-
-- SQL (MySQL / MariaDB)  
-- Relational modeling with primary and foreign keys  
-
-### Features
-
-- Management of training programs (e.g., Web Development, Digital Marketing, Data Analysis)  
-- Management of subjects linked to training programs  
-- Management of students and their enrollments in training programs  
-- Management of teachers and the subjects they teach  
-- Organization of courses and assignments related to subjects  
-- Scheduling appointments between students, teachers, and subjects with dates and times  
-
-### Database structure
-
-- `formations`: list of training programs  
-- `matieres`: subjects taught with descriptions  
-- `formations_matieres`: link between training programs and subjects  
-- `cours`: courses linked to subjects  
-- `devoirs`: assignments linked to courses  
-- `eleves`: list of students  
-- `eleves_formations`: student enrollments with dates  
-- `professeurs`: list of teachers  
-- `professeurs_matieres`: subjects taught by each teacher  
-- `rdv`: appointments between students, teachers, and subjects with dates and times  
-
-### Installation / Usage
-
-1. Create an empty database (e.g., `bdd_data4_ecole`)  
-2. Import the provided SQL scripts in this order:  
-   - table creation  
-   - data insertion  
-3. Use a MySQL-compatible DBMS (phpMyAdmin, MySQL Workbench, etc.)  
-4. Run your own queries to manipulate or query the data  
-
-### Sample useful queries
-
-- List of students enrolled in a training program  
-- Appointment schedule by teacher or student  
-- Courses and assignments linked to a specific subject  
+Vanessa Paganotto 
 
 ---
 
-## Author / Auteur
+## Licence
 
-Vanessa Paganotto - développeuse web junior / Junior Web Developer
+Ce projet est sous licence MIT.
