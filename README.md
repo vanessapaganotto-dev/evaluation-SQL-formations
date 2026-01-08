@@ -1,3 +1,7 @@
+
+🇬🇧 Version anglaise disponible : [README_EN.md](README_EN.md)
+
+
 # Base de données SQL complète pour gérer un centre de formation.  
 
 Le système gère les élèves, professeurs, formations, matières, cours, devoirs, inscriptions et rendez-vous.
